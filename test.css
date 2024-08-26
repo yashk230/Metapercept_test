@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+}
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+.navbar a.active {
+    background-color: blue;
+    color: white;
+}
+.navbar .search-icon {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+
+#t1{
+    text-align: center;
+}
+
+#RM{
+    justify-content: center;
+    display: flex;
+}
+
+#Div_Title{
+    color: aliceblue;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    height: 30vh;
+    background:linear-gradient(to right,rgb(47, 221, 234),rgb(47, 147, 234),rgb(152, 65, 219));
+}
+
+#div_Main{
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+.course-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.course {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+.course img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.course h3 {
+    margin: 10px 0;
+}
+.course p {
+    font-size: 14px;
+    color: #555;
+}
+.course button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    /* Limit text to 3 lines */
+}
